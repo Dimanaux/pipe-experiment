@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 rm output.txt
-javac.exe Solution.java
-cat input.txt | java.exe Solution > output.txt
+javac Solution.java
+cat input.txt | java Solution > output.txt
 
 diff output.txt expected.txt
 
