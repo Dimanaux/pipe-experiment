@@ -7,6 +7,6 @@ public class Solution {
         int b = s.nextInt();
 
         System.out.println(a + b);
+        s.close();
     }
 }
-

@@ -4,4 +4,3 @@ rm output.txt
 cat input.txt | ./solution.py > output.txt
 
 diff output.txt expected.txt
-

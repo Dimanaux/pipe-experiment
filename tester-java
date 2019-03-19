@@ -5,4 +5,3 @@ javac Solution.java
 cat input.txt | java Solution > output.txt
 
 diff output.txt expected.txt
-
